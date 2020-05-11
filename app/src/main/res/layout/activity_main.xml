@@ -24,14 +24,7 @@
 
 
 
-    <LinearLayout
-        android:id="@+id/me"
-        android:background="#FF1100"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    </LinearLayout>
 
 
 

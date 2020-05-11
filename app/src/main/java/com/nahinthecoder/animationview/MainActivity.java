@@ -14,14 +14,14 @@ public class MainActivity extends AppCompatActivity {
     ImageView myButton;
     View myView;
     boolean isUp;
-    LinearLayout in;
+    //LinearLayout in;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
-        in = findViewById(R.id.me);
+        //in = findViewById(R.id.me);
         myView = findViewById(R.id.my_view);
         myButton = findViewById(R.id.my_button);
 
@@ -59,11 +59,11 @@ public class MainActivity extends AppCompatActivity {
     public void onSlideViewButtonClick(View view) {
         if (isUp) {
             slideDown(myView);
-            in.setVisibility(View.VISIBLE);
+            //in.setVisibility(View.VISIBLE);
             //myButton.setText("Slide up");
         } else {
             slideUp(myView);
-            in.setVisibility(View.GONE);
+            //in.setVisibility(View.GONE);
             //myButton.setText("Slide down");
         }
         isUp = !isUp;
